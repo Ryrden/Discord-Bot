@@ -3,6 +3,30 @@
   "version": "1.0.0",
   "description": "MiniCurso ICMC-USP - Bot para DISCORD com node.js",
   "main": "index.js",
+  "dependencies": {
+    "asynckit": "^0.4.0",
+    "callsites": "^3.1.0",
+    "combined-stream": "^1.0.8",
+    "delayed-stream": "^1.0.0",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "dot-prop": "^6.0.1",
+    "form-data": "^3.0.1",
+    "is-obj": "^2.0.0",
+    "lodash.isequal": "^4.5.0",
+    "mime-db": "^1.50.0",
+    "mime-types": "^2.1.33",
+    "node-fetch": "^2.6.6",
+    "ow": "^0.27.0",
+    "tr46": "^0.0.3",
+    "ts-mixer": "^6.0.0",
+    "tslib": "^2.3.1",
+    "type-fest": "^1.4.0",
+    "vali-date": "^1.0.0",
+    "webidl-conversions": "^3.0.1",
+    "whatwg-url": "^5.0.0",
+    "ws": "^8.2.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,8 +40,5 @@
   "bugs": {
     "url": "https://github.com/Ryrden/Discord-Bot/issues"
   },
-  "homepage": "https://github.com/Ryrden/Discord-Bot#readme",
-  "dependencies": {
-    "discord.js": "^13.3.1"
-  }
+  "homepage": "https://github.com/Ryrden/Discord-Bot#readme"
 }

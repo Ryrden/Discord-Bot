@@ -21,7 +21,7 @@ client.on('messageCreate', (message) => {
 
     const command = getCommand(message, prefix);
 
-    commandArray.forEach(com => com.name === command ? com.execute(message) : null);
+    commandArray.forEach(comm => comm.name === command ? comm.execute(message) : null);
 
 });
 
