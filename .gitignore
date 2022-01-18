@@ -1,2 +1,4 @@
-## Token frágil ##
+## ignorar
+node_modules
+.env
 config.json
