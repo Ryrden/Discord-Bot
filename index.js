@@ -1,8 +1,12 @@
 const fs = require('fs');
 const { Client, Intents } = require('discord.js');
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, Intents.FLAGS.GUILD_MESSAGES] });
+const dotenv = require('dotenv');
 
-const { token, prefix } = require('./config.json');
+dotenv.config();
+const token = process.env.DISCORD_TOKEN;
+
+const { prefix } = require('./config.json');
 
 client.once('ready', () => {
     console.log(`Estou logado com a tag ${client.user.tag}!`);

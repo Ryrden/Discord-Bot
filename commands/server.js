@@ -3,7 +3,7 @@ module.exports = {
 	description: "Server!",
 	async execute(message) {
 		message.channel.send(
-			`Servidor: ***${message.guild.name}*** e tem ***${message.guild.memberCount}***`
+			`Servidor: ***${message.guild.name}***\nTotal de Membros: ***${message.guild.memberCount}***`
 		);
 	},
 };
